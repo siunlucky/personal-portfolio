@@ -4,7 +4,6 @@ import { certificatesData } from "@/lib/data";
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
-import Link from "next/link";
 
 
 type CertificateProps = (typeof certificatesData)[number];
