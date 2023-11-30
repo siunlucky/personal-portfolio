@@ -4,10 +4,18 @@ import { LuGraduationCap } from "react-icons/lu";
 import netflix from "@/public/netflix-clone.png";
 import ecommerceAdmin from "@/public/ecommerce-admin.png";
 import ecommerceStore from "@/public/ecommerce-store.png";
-import digiupTelkomCertificate from "@/public/digiup-telkom-certificate.png";
-import dotCertificate from "@/public/dot-certificate.png";
-import ukbiCertificate from "@/public/ukbi-certificate.png";
-import englishPaperBasedTestCertificate from "@/public/englishFirst-certificate.png";
+import digiupTelkomCertificate from "@/public/Certificate/digiup-telkom-certificate.png";
+import dotCertificate from "@/public/Certificate/dot-certificate.png";
+import ukbiCertificate from "@/public/Certificate/ukbi-certificate.png";
+import englishPaperBasedTestCertificate from "@/public/Certificate/englishFirst-certificate.png";
+import hackerrankProblemSolvingBasicCertificate from "@/public/Certificate/hackerrank-problemsolving-certificate.jpg";
+import hackerrankPyhtonBasicCertificate from "@/public/Certificate/hackerrank-pyhton-certificate.jpg";
+import dicodingDasarManajemenProyekCertificate from "@/public/Certificate/dicoding-dasarmenajemenproyek-certificate.jpg";
+import dicodingProgrammingSoftwareBasicCertificate from "@/public/Certificate/dicoding-programmingsoftwarebasic-certificate.jpg";
+import dicodingStructuredQueryLanguageCertificate from "@/public/Certificate/dicoding-structuredquerylanguage-certificate.jpg";
+import indobotWebinarIoTCreationSmartUtilitiesCertificate from "@/public/Certificate/indobot-webinar-25-07-2022-certificate.jpg";
+import indobotWebinarIoTDevelopmentsinIndonesiaVsGlobalCertificate from "@/public/Certificate/indobot-webinar-01-08-2022-certificate.jpg";
+import indobotWebinarIoTCreationSmartAgricultureandFarmingCertificate from "@/public/Certificate/indobot-webinar-08-08-2022-certificate.jpg";
 
 export const links = [
   {
@@ -93,6 +101,27 @@ export const projectsData = [
 
 export const certificatesData = [
   {
+    title: "Webinar IoT Creation Smart Utilities Indobot",
+    description: "This is a certificate of Webinar IoT Creation Smart Utilities from Indobot.",
+    date: "July 25, 2022",
+    link: "Certificate/FaizElfahadKurniawan-WebinarIoTCreationSmartUtilities-Indobot.pdf",
+    imageUrl: indobotWebinarIoTCreationSmartUtilitiesCertificate
+  },
+  {
+    title: "Webinar IoT Developments in Indonesia Vs Global Indobot",
+    description: "This is a certificate of Webinar IoT Developments in Indonesia Vs Global from Indobot.",
+    date: "August 01, 2022",
+    link: "Certificate/FaizElfahadKurniawan-WebinarIoTDevelopmentsinIndonesiaVsGlobal-Indobot.pdf",
+    imageUrl: indobotWebinarIoTDevelopmentsinIndonesiaVsGlobalCertificate
+  },
+  {
+    title: "Webinar IoT Creation Smart Agriculture and Farming Indobot",
+    description: "This is a certificate of Webinar IoT Creation Smart Agriculture and Farming from Indobot.",
+    date: "August 08, 2022",
+    link: "Certificate/FaizElfahadKurniawan-WebinarIoTCreationSmartAgricultureandFarming-Indobot.pdf",
+    imageUrl: indobotWebinarIoTCreationSmartAgricultureandFarmingCertificate
+  },
+  {
     title: "English Paper Based Test (PBT)",
     description: "This is a certificate of English Paper Based Test from English First.",
     date: "January 25, 2023",
@@ -120,7 +149,43 @@ export const certificatesData = [
     link: "FaizElfahadKurniawan-LaravelBlade-DOT.pdf",
     imageUrl: dotCertificate,
   },
+  {
+    title: "Project Management (Basic) Dicoding",
+    description: "This Certificate is from Dicoding after successfully cleared assessment for the skill of Project Management (Basic)",
+    date: "August 25, 2023",
+    link: "Certificate/FaizElfahadKurniawan-DasarManajemenProyek-Dicoding.pdf",
+    imageUrl: dicodingDasarManajemenProyekCertificate,
+  },
+  {
+    title: "Problem Solving (Basic) HackerRank",
+    description: "This Certificate is from HackerRank after successfully cleared assessment for the skill of Problem Solving (Basic)",
+    date: "September 1, 2023",
+    link: "Certificate/FaizElfahadKurniawan-ProblemSolvingBasic-HackerRank.pdf",
+    imageUrl: hackerrankProblemSolvingBasicCertificate,
+  },
+  {
+    title: "Python (Basic) HackerRank",
+    description: "This Certificate is from HackerRank after successfully cleared assessment for the skill of Pyhton (Basic)",
+    date: "September 2, 2023",
+    link: "Certificate/FaizElfahadKurniawan-PythonBasic-HackerRank.pdf",
+    imageUrl: hackerrankPyhtonBasicCertificate,
+  },
+  {
+    title: "Programming Software (Basic) Dicoding",
+    description: "This Certificate is from Dicoding after successfully cleared assessment for the skill of Programming Software (Basic)",
+    date: "September 7, 2023",
+    link: "Certificate/FaizElfahadKurniawan-ProgrammingSoftwareBasic-Dicoding.pdf",
+    imageUrl: dicodingProgrammingSoftwareBasicCertificate,
+  },
+  {
+    title: "Structured Query Language (Basic) Dicoding",
+    description: "This Certificate is from Dicoding after successfully cleared assessment for the skill of Structured Query Language (Basic)",
+    date: "September 7, 2023",
+    link: "Certificate/FaizElfahadKurniawan-StructuredQueryLanguage(SQL)Basic-Dicoding.pdf",
+    imageUrl: dicodingStructuredQueryLanguageCertificate,
+  },
 
+  
 ] as const;
 
 export const skillsData = [
@@ -129,6 +194,7 @@ export const skillsData = [
   "PHP",
   "JavaScript",
   "TypeScript",
+  "Laravel",
   "React",
   "Next.js",
   "Node.js",
