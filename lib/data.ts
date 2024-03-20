@@ -1,5 +1,5 @@
 import React from "react";
-import { FaReact, FaSuitcase } from "react-icons/fa";
+import { FaSuitcase } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import netflix from "@/public/netflix-clone.png";
 import ecommerceAdmin from "@/public/ecommerce-admin.png";
@@ -53,7 +53,7 @@ export const experiencesData = [
     title: "Internship at Telkom Akses",
     location: "South Jakarta, Indonesia",
     description:
-      "I did an internship in an IT Support position for 6 months at PT Telkom Indonesia",
+      "I did an internship at PT Telkom Indonesia as IT Support position for 6 months",
     icon: React.createElement(FaSuitcase),
     date: "June 2022 - November 2022",
   },
@@ -66,11 +66,19 @@ export const experiencesData = [
     date: "May 2023",
   },
   {
+    title: "Internship at AjakJago",
+    location: "Jakarta, Indonesia",
+    description:
+      "I did a remote internship at AjakJago as Web Developer position for 4 months",
+    icon: React.createElement(FaSuitcase),
+    date: "September 2023 - December 2023",
+  },
+  {
     title: "Telkom University",
     location: "Bandung, Indonesia",
     description:
-      "I'm now a student of Telkom University, majored in S1 Informatics. and I'am a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Laravel, Tailwind, Prisma and MongoDB. I'am familiar with CodeIgniter and PHP Native. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
+      "I'm now a student of Telkom University, majored in S1 Informatics. and I'am a full-stack developer working as a freelancer. My stack includes Next.js, TypeScript, Laravel, Tailwind, Prisma and MongoDB. I'am familiar with CodeIgniter and PHP Native. I'm open to full-time opportunities.",
+    icon: React.createElement(LuGraduationCap),
     date: "September 2023 - present",
   }
 ] as const;
@@ -82,6 +90,7 @@ export const projectsData = [
       "This is my Netflix Clone project",
     tags: ["React", "Next.js", "TypeScript", "Tailwind", "Prisma", "MongoDB"],
     imageUrl: netflix,
+    url: "https://netflix-clone-nextjs-iota.vercel.app"
   },
   {
     title: "Ecommerce Admin",
@@ -89,6 +98,7 @@ export const projectsData = [
       "This is my ecommerce admin project for handling many ecommerce websites",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Prisma", "PlanetScale"],
     imageUrl: ecommerceAdmin,
+    url: "https://faiz-ecommerce-admin.vercel.app"
   },
   {
     title: "Ecommerce Store",
@@ -96,6 +106,7 @@ export const projectsData = [
       "A public ecommerce store web app for showing and selling product. It connected and controlled using API from my ecommerce Admin project.",
     tags: ["React", "Next.js", "TypeScript", "Tailwind"],
     imageUrl: ecommerceStore,
+    url: "https://faiz-ecommerce-store.vercel.app"
   },
 ] as const;
 

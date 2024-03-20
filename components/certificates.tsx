@@ -2,13 +2,13 @@
 
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
-import SectionHeading from "@/components/section-heading";
+import SectionHeading from "./section-heading";
 import { certificatesData } from "@/lib/data";
 import React from "react";
 import Certificate from "@/components/certificate";
 
 const Certificates = () => {
-    const { ref } = useSectionInView("Certificates", 0.5);
+    const { ref } = useSectionInView("Certificates");
 
     return (
         <motion.section
